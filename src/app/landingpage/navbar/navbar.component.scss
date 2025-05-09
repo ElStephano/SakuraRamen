@@ -1,0 +1,51 @@
+nav {
+    position:absolute;
+    top: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    >img {
+        box-sizing: border-box;
+        width: 64px;
+        height: 64px;
+    }
+
+    >div {
+        width: 100%;
+        padding-left: 4%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        >div {
+            display:flex;
+            align-items: center;
+        }
+        >a {
+            color: white;
+            text-decoration: none;
+            &:hover {
+                color: red;
+            }
+        }
+    }
+}
+
+.phone-btn {
+    >img {
+        width: 32px;
+        padding-right: 8px;
+    }
+    >a {
+        color: white;
+        text-decoration: none;
+    }
+    &:hover {
+        filter: brightness(0) saturate(100%) invert(20%)
+        sepia(90%) saturate(6491%) hue-rotate(357deg)
+        brightness(110%) contrast(124%);
+        cursor: pointer;
+    }
+}
+
