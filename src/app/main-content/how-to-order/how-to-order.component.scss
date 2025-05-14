@@ -1,0 +1,26 @@
+.how-to-order {
+    display:flex;
+    flex-direction: column;
+    padding: 64px;
+    >h3 {
+        display:flex;
+        justify-content: center;
+        margin-bottom: 32px;
+        font-size: 40px;
+        color: rgb(190, 2, 2);
+        font-weight: 600;
+    }
+}
+
+.directions {
+    display:flex;
+    justify-content: space-between;
+    >div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        >img {
+            width: 72px;
+        }
+    }
+}
