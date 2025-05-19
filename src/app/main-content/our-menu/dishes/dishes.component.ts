@@ -13,15 +13,15 @@ export class DishesComponent {
   dishBlocks = [
   {
     description: 'Tonkotsu Ramen',
-    imageUrl: './../../../../assets/img/3_section_our_menu/Png/R1.png'
+    imageUrl: 'assets/img/3_section_our_menu/Png/R1.png'
   },
   {
     description: 'Spicy Miso Ramen',
-    imageUrl: './../../../../assets/img/3_section_our_menu/Png/R2.png'
+    imageUrl: 'assets/img/3_section_our_menu/Png/R2.png'
   },
   {
     description: 'Shio Ramen',
-    imageUrl: './../../../../assets/img/3_section_our_menu/Png/R3.png'
+    imageUrl: 'assets/img/3_section_our_menu/Png/R3.png'
   }
 ];
 }
